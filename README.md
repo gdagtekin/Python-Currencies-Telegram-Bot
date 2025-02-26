@@ -22,7 +22,7 @@ You have three ways to run this bot:
 4. **Run locally without Docker**
 
 <details open>
-  <summary>1. With a pre-built Docker image</summary> 
+  <summary><h1>1. With a pre-built Docker image</h1></summary> 
 
 You need to provide the following environment variable for the bot to work:
 
@@ -82,9 +82,6 @@ docker logs -f currencies
 <details>
   <summary>3. Build the Docker image and run the bot</summary> 
 
-You need to provide the following environment variable for the bot to work:
-
-TOKEN: Your Telegram bot token from BotFather.
 
 Clone the project
 
@@ -97,7 +94,6 @@ Go to the project directory
 ```bash
   cd Python-Currencies-Telegram-Bot
 ```
-## Running with Docker
 
 Build the Docker Image
 
@@ -129,12 +125,6 @@ docker logs -f currencies
 
 <details>
   <summary>4. Run locally without Docker</summary> 
-
-You need to provide the following environment variable for the bot to work:
-
-TOKEN: Your Telegram bot token from BotFather.
-
-Clone the project
 
 ```bash
   git clone https://github.com/gdagtekin/Python-Currencies-Telegram-Bot
