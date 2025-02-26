@@ -22,7 +22,7 @@ You have three ways to run this bot:
 4. **Run locally without Docker**
 
 <details open>
-  <summary><h1>1. With a pre-built Docker image</h1></summary> 
+  <summary><h3>1. With a pre-built Docker image</h3></summary> 
 
 You need to provide the following environment variable for the bot to work:
 
@@ -43,7 +43,7 @@ docker logs -f currencies
 ---
 
 <details>
-  <summary>2. Docker Compose</summary> 
+  <summary><h3>2. Docker Compose</h3></summary> 
 
 You need to provide the following environment variable for the bot to work:
 
@@ -80,7 +80,7 @@ docker logs -f currencies
 ---
 
 <details>
-  <summary>3. Build the Docker image and run the bot</summary> 
+  <summary><h3>3. Build the Docker image and run the bot</h3></summary> 
 
 
 Clone the project
@@ -124,7 +124,7 @@ docker logs -f currencies
 ---
 
 <details>
-  <summary>4. Run locally without Docker</summary> 
+  <summary><h3>4. Run locally without Docker</h3></summary> 
 
 ```bash
   git clone https://github.com/gdagtekin/Python-Currencies-Telegram-Bot
