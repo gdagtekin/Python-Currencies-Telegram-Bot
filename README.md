@@ -1,7 +1,7 @@
 
-# Python Currencies Telegram Bot
+# KurBot
 
-This repository contains a Telegram Bot that was developed to understand the Telegram Bot API, and Python web services.
+A Telegram bot written in Python that provides real-time currency exchange rates and precious metal prices in Turkish Lira.
 
 
 ## Prerequisites
@@ -14,7 +14,7 @@ This repository contains a Telegram Bot that was developed to understand the Tel
 
 ## Methods to Run the Bot
 
-You have three ways to run this bot: 
+You have four ways to run this bot: 
 
 1. **Run the bot with a pre-built Docker image**
 2. **Run the bot using Docker Compose**
@@ -86,13 +86,13 @@ docker logs -f currencies
 Clone the project
 
 ```bash
-  git clone https://github.com/gdagtekin/Python-Currencies-Telegram-Bot
+  git clone https://github.com/gdagtekin/KurBot.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Python-Currencies-Telegram-Bot
+  cd KurBot
 ```
 
 Build the Docker Image
@@ -127,13 +127,13 @@ docker logs -f currencies
   <summary><h3>4. Run locally without Docker</h3></summary> 
 
 ```bash
-  git clone https://github.com/gdagtekin/Python-Currencies-Telegram-Bot
+  git clone https://github.com/gdagtekin/KurBot.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Python-Currencies-Telegram-Bot
+  cd KurBot
 ```
 
 Install pipenv
